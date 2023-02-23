@@ -1,0 +1,493 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+header {
+  width: 100vw;
+  height: 90px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+nav {
+  text-align: right;
+  position: relative;
+  top: 30px;
+  padding-right: 25px;
+}
+
+#logo {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 10px;
+  padding-left: 25px;
+}
+.menuitem {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  padding-right: 18px;
+  font-weight: 550;
+  color: black;
+}
+.material-symbols-outlined {
+  position: relative;
+  bottom: -5px;
+  left: -9px;
+}
+.dropdown-box {
+  width: 150px;
+  height: 110px;
+  box-sizing: content-box;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: 3px solid rgb(116, 191, 4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 955px;
+  top: 40px;
+  display: none;
+}
+#dropdown-wrapper {
+  display: inline-block;
+}
+#dropdown-wrapper:hover .dropdown-box {
+  display: block;
+}
+.dropdown-box > p {
+  font-size: 18px;
+  margin: 8px;
+  text-align: center;
+  border-bottom: 2px solid rgb(116, 191, 4);
+}
+.dropdown-box > p:first-child {
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.dropdown-box > p:last-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom: none;
+}
+#menu-btn {
+  background-color: rgb(116, 191, 4);
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+#section1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://simeonoge.github.io/vegan/img/landing-background.png);
+  display: flex;
+  justify-content: center;
+}
+#sec1 {
+  width: 80%;
+  justify-content: center;
+}
+#sec1 > h1 {
+  font-size: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 0;
+  letter-spacing: 14px;
+}
+#sec1 > p {
+  font-size: 18px;
+  color: #393636;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+#section2 {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  background-color: pink;
+  text-align: center;
+}
+.section2-parts {
+  color: white;
+  letter-spacing: -1px;
+  padding: 55px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.section2-parts > h3 {
+  font-size: 30px;
+}
+
+#sec2a {
+  width: 25%;
+  background-color: rgb(18, 162, 152);
+}
+#sec2as:hover {
+  font-size: 85px;
+}
+#sec2b {
+  width: 25%;
+  background-color: rgb(116, 191, 4);
+}
+
+#sec2c {
+  width: 25%;
+  background-color: rgb(243, 171, 56);
+  color: white;
+}
+#sec2d {
+  width: 25%;
+  background-color: rgba(255, 100, 159, 0.879);
+}
+#section3 {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(224, 207, 210);
+  text-align: center;
+  align-items: center;
+}
+.sec3a {
+  margin: 20px;
+}
+.sec3a > p {
+  color: #393636;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* line-height: 0%; */
+}
+
+.sec3a > h1 {
+  columns: black;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 0%;
+}
+.sec3b {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: pink; */
+  margin: 55px;
+}
+.sec3b-content {
+  box-sizing: border-box;
+  width: 25%;
+  text-align: center;
+  /* background-color: aqua; */
+  margin: 25px;
+  /* margin-top: 60px; */
+}
+.sec3b-content > p {
+  color: #393636;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sec3b-content h2 {
+  columns: black;
+  font-size: 23px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* line-height: 0%; */
+  margin-top: 50px;
+}
+.sec3bs {
+  width: 150px;
+  height: 150px;
+  color: white;
+  background-color: rgb(210, 166, 72);
+  border-radius: 50%;
+  position: relative;
+  right: -50px;
+  top: 10px;
+  margin-bottom: 40px;
+}
+#sec3-symbol {
+  position: relative;
+  top: 40px;
+}
+#sec3-symbol:hover {
+  font-size: 75px;
+}
+#section4 {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+}
+.sec4b {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: pink; */
+  margin: 30px;
+  justify-content: space-around;
+}
+.sec4b-content {
+  box-sizing: border-box;
+  width: 25%;
+  text-align: center;
+  background-color: #d3d3d3;
+  margin: 25px;
+  padding: 35px;
+  border-radius: 40px 2px 40px 40px;
+  /* margin-top: 60px; */
+}
+.sec4bs img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+.sec4b-content > p {
+  color: #393636;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sec4b-content h2 {
+  columns: black;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 0%;
+  margin-top: 30px;
+}
+.sec4b-content:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+#section5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+}
+#sec5a {
+  width: 65%;
+  /* background-image: url(http://clv.h-cdn.co/assets/15/22/2048x2048/square-1432664914-strawberry-facts1.jpg); */
+  background-color: blue;
+}
+#sec5a img {
+  width: 100%;
+  height: 100vh;
+}
+#sec5b {
+  width: 35%;
+  /* background-image: url(http://clv.h-cdn.co/assets/15/22/2048x2048/square-1432664914-strawberry-facts1.jpg); */
+  background-color: rgb(115, 255, 0);
+  /* background-image: url(data:image/jpeg;base64,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); */
+  background-image: url(https://static.vecteezy.com/system/resources/previews/007/074/249/large_2x/plate-of-berries-on-the-table-strawberries-raspberries-blueberries-in-a-plate-with-a-wooden-spoon-strawberries-on-the-table-foodgraphy-photo.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.sec5b-content {
+  margin: 180px 80px 60px 80px;
+}
+.sec5b-content > p {
+  color: #393636;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 0;
+}
+
+.sec5b-content > h1 {
+  columns: black;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 0%;
+}
+.sec5b-input {
+  margin-left: 80px;
+  width: 100%;
+}
+#email-box {
+  width: 65%;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 15px;
+}
+#subs-btn {
+  width: 23%;
+  padding: 15px;
+  font-size: 13px;
+  color: white;
+  background-color: rgb(238, 58, 58);
+  /* opacity: 0.6; */
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+#subs-btn:hover {
+  border: 1px solid red;
+  color: red;
+  opacity: 0.7;
+  background-color: white;
+}
+#section6 {
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(239, 234, 234);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sec6a {
+  /* background-color: pink; */
+  box-sizing: border-box;
+  text-align: center;
+}
+.sec6a h1 {
+  font-size: 60px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0;
+}
+
+.sec6a p {
+  color: #096a40;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  /* letter-spacing: 0.1%; */
+}
+#section7 {
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  color: #393636;
+  font-size: 27px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 0;
+}
+#video {
+  border-radius: 4px;
+}
+#section8 {
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+#sec8a {
+  width: 50%;
+  /* background-color: blue; */
+  /* margin-top: 20px;
+  margin-left: 150px; */
+  padding-top: 20px;
+  padding-left: 100px;
+}
+#last {
+  font-size: 40px;
+  font-family: cursive;
+  color: rgb(9, 204, 9);
+  font-weight: 600;
+}
+#sec8a p {
+  color: #393636;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#sec8a h1 {
+  color: #393636;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+#sec8a h3 {
+  color: #393636;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  padding: 0;
+}
+#sec8b {
+  width: 50%;
+  /* background-color: rgb(64, 255, 0); */
+  /* margin-top: 20px;
+  margin-left: 150px; */
+  display: flex;
+  flex-direction: column;
+}
+.input-box {
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#text-area {
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  letter-spacing: -1.5px;
+}
+#subs-btn2 {
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 23%;
+  padding: 15px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(116, 191, 4);
+  /* opacity: 0.6; */
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+footer {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(23, 22, 22);
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+}
